@@ -5,3 +5,8 @@ body{
     background-attachment: fixed; 
     background-size:cover; 
 }
+
+.audio-player{
+    width:200px;
+    margin:20px; 
+}

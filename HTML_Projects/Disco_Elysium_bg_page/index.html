@@ -1,8 +1,15 @@
 <!DOCTYPE html>
 <head>
-    <meta charset='utf-8' name='viewport' content='width:device-width, initial-scale='1.0>
+    <!--adding the specific name and content properties essential for shaping it to device height/width.-->
+    <!--probably fine for my 14 inch. but what if you're viewing it on a phone? probably going to be really ugly.-->
+    <meta charset='utf-8' name='viewport' content='width:device-width, initial-scale=1.0'>
     <link rel='stylesheet' href='style.css'> 
 </head>
 <body> 
-    
+    <div class='audio-player'>
+    <audio controls autoplay> 
+        <source src='La Revacholiere.mp3' > 
+    </audio>
+</div>
+<script src='script.js'></script>
 </body>
