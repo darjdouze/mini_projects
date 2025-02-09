@@ -37,6 +37,12 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
+1. Light blue gray/background colour 
+2. A rectangular container in the centre of the page, with rounded edges, filled in entirely with white 
+3. Container 2 in above white box, rounded edges, filled in with blue. Located at the top of the white container. 
+4. Container 3 in above blue box, which is probably an image of the QR code located in the centre. 
+5. Black text with a header - improve your front-end skills by building projects. 
+6. Scan the QR code to visit Frontend mentor.... 
 
 ### Built with
 
