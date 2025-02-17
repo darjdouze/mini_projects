@@ -37,10 +37,9 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
-1. Light blue gray/background colour 
+1. Light blue gray/background colour - found exact colour for body by adding the image to a imagecolourpicker site online
 2. A rectangular container in the centre of the page, with rounded edges, filled in entirely with white 
-3. Container 2 in above white box, rounded edges, filled in with blue. Located at the top of the white container. 
-4. Container 3 in above blue box, which is probably an image of the QR code located in the centre. 
+3. Container 2 in above white box, rounded edges, filled in with blue. Located at the top of the white container. Contains the QR code as well. 
 5. Black text with a header - improve your front-end skills by building projects. 
 6. Scan the QR code to visit Frontend mentor.... 
 
@@ -58,6 +57,11 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 **Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
+
+1. Even if the child container has no margins, the parent container might have margins automatically added in by the browser. For Chrome this is 8px all around. 
+
+2. The body element tag is a subset of the HTML tag. If you try to set a background colour to the body, or assign any other properties like centering for subsequent child elements, because the size of your body element is restricted...you're not going to get a centering to the middle of the page. Instead, ensure that you set a min-height : 100% to your HTML tag (because this height is derived from the viewport that you're seeing the page on. Not setting a width means you get the entire width of the screen.)
+
 
 Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
 

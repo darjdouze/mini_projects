@@ -1,0 +1,19 @@
+html { 
+    background-color: #d5e1ef;  
+    height:100%; 
+    display: flex;  
+    justify-content: center; 
+    align-items: center; 
+
+    /*child items will be in a column format*/ 
+    
+}
+
+.large-container {
+    /*currently the width and height is fixed. see if we can amend this somehow*/
+    /*will it inherit flex-direction :column or do I have to put it into THIS parent container as well?*/ 
+    justify-content: center;
+    margin:0; 
+    text-align: center;
+    
+}
