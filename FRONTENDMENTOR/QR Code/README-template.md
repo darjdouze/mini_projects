@@ -62,6 +62,14 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 2. The body element tag is a subset of the HTML tag. If you try to set a background colour to the body, or assign any other properties like centering for subsequent child elements, because the size of your body element is restricted...you're not going to get a centering to the middle of the page. Instead, ensure that you set a min-height : 100% to your HTML tag (because this height is derived from the viewport that you're seeing the page on. Not setting a width means you get the entire width of the screen.)
 
+3. Justify-content is for main-axis, align-item is for cross-axis. 
+
+4. Border-radius can be expressed with either px or %. 
+
+5. If you use min-height/min-width, the parent container will expand to the size of the contents of that of the child items if sizing is not specified for the child. Pretty neat. However, it also means you end up complicating your life because the child element cannot inherit a % width/height and now your parent and child element will start changing in an unwanted way. Just use standard height/width. 
+
+6. You can use vw and vh as units. 1vh = 1% of viewport height. and 1vw = 1% of viewport width. If you want a document to appear FIRST, you can specify that to be 100vh, meaning the rest of it only appears after you scroll. 
+
 
 Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
 
